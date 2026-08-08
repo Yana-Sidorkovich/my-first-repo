@@ -10,3 +10,9 @@
 
 \- играю в "Что? Где? Когда?"
 
+## Контакты
+
+\- Email: moya.pochta@example.com
+
+\- Telegram: @my\_nickname
+
