@@ -5,13 +5,12 @@ class CartPage {
     this.checkoutButton = page.locator('[data-test="checkout"]');
     this.continueShoppingButton = page.locator('[data-test="continue-shopping"]');
   }
-
   
-  async getItemName() {
-    return await this.cartItems.locator('.inventory_item_name').first().textContent();
+  getItemName() {
+    return this.cartItems.locator('.inventory_item_name').first().textContent();
   }
-
-    async goToCheckout() {
+  
+  async goToCheckout() {
     await this.checkoutButton.click();
   }
 }
